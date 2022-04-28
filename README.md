@@ -1,3 +1,23 @@
+Cara Deploy
+
+1. clone repo (git clone)
+2. masuk ke directory repo run 'composer install'
+3. edit configurasi database di file .env\
+\
+default\
+DB_CONNECTION=mysql\
+DB_HOST=127.0.0.1\
+DB_PORT=3306\
+DB_DATABASE=semantic\
+DB_USERNAME=root\
+DB_PASSWORD=\
+
+4. import database dari file 'semantic.sql'
+5. run command 'php artisan serve'
+6. endpoint rss di '127.0.0.1:8000/feed' | endpoint hp di '127.0.0.1:8000/api/phone'
+
+
+============================================================================================================================================================================
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
